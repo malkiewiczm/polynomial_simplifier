@@ -1,0 +1,6 @@
+# stuff from ocamlbuild
+_build/
+.merlin
+*.byte
+*.swp
+*.out

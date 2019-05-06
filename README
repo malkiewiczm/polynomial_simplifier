@@ -1,0 +1,51 @@
+===========
+INFORMATION
+===========
+
+This repo contains two ocaml assignments written for a class
+(programming language concepts).
+
+The first is a program that will take a polynomial expression and simplify
+it, as long as it meets these requirements:
+
+(1) is a valid polynomial (nothing like 5^x)
+
+(2) only contains the operators +, -, * and grouping parenthesis
+
+(3) contains no fractions or decimals
+
+(4) only contains one variable -- x
+
+In short it will take something like:
+
+(2x - 8)*(x + 3)
+
+and turn it into:
+
+2x^2 + (-2)x + (-24)
+
+Note that expressions that go to large powers are not optimized, ie:
+
+(x + 1)^100
+
+will take a very long time (and may not even finish).
+
+Additionally in this repo you will see the "reverse_polish_notation"
+directory. This doesn't have anything to do with polynomials, and is
+the other assignment. It is simply an rpn calculator that was created
+to "get the feeling" of ocaml, and such there are some things in that
+code that I would not do now, such as using the "@" operator instead
+of "::" when concatenating just a head, and using exceptions rather
+than an algebraic type.
+
+=========
+COMPILING
+=========
+
+There is a makefile contained in "src", cd into that directory and run
+"make" there.  If you want a test, put it in the test directory with
+the file extension "in", and then running "make test" will run the
+program against it, producing a corresponding "out" file.
+
+There are already a number of tests in the test directory already.
+

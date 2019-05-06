@@ -1,0 +1,16 @@
+0.000000
+256.000000
+too many operators
+value was not a number or valid operator
+too many operators
+not enough operators
+no expression made
+value was not a number or valid operator
+no expression made
+5.000000
+-156.577297
+0.500000
+0.001667
+4.000000
+82.857143
+5.000000
